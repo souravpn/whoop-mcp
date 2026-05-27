@@ -1,5 +1,7 @@
 # whoop-mcp
 
+[![CI](https://github.com/souravpn/whoop-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/souravpn/whoop-mcp/actions/workflows/ci.yml)
+
 A [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that gives Claude access to your WHOOP biometric data — recovery, sleep, strain, and workouts.
 
 Ask Claude things like:
