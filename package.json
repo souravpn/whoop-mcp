@@ -1,7 +1,7 @@
 {
-  "name": "whoop-mcp",
+  "name": "@souravpn/whoop-mcp",
   "version": "1.0.0",
-  "description": "MCP server for WHOOP \u2014 gives Claude access to your recovery, sleep, strain, and workout data",
+  "description": "MCP server for WHOOP — gives Claude access to your recovery, sleep, strain, and workout data",
   "keywords": [
     "mcp",
     "whoop",
@@ -14,8 +14,8 @@
   "license": "MIT",
   "type": "module",
   "bin": {
-    "whoop-mcp": "./dist/index.js",
-    "whoop-mcp-auth-setup": "./dist/auth-setup.js"
+    "whoop-mcp": "dist/index.js",
+    "whoop-mcp-auth-setup": "dist/auth-setup.js"
   },
   "main": "./dist/index.js",
   "files": [

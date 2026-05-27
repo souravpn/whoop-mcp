@@ -47,7 +47,7 @@ This app accesses your WHOOP data locally on your device. No data is sent to any
 ### 2. Install
 
 ```bash
-npm install -g whoop-mcp
+npm install -g @souravpn/whoop-mcp
 ```
 
 ### 3. Run one-time auth setup
@@ -68,7 +68,7 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS):
 {
   "mcpServers": {
     "whoop": {
-      "command": "whoop-mcp",
+      "command": "@souravpn/whoop-mcp",
       "env": {
         "WHOOP_CLIENT_ID": "your_client_id",
         "WHOOP_CLIENT_SECRET": "your_client_secret"
