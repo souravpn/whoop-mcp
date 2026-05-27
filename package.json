@@ -1,0 +1,41 @@
+{
+  "name": "whoop-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for WHOOP \u2014 gives Claude access to your recovery, sleep, strain, and workout data",
+  "keywords": [
+    "mcp",
+    "whoop",
+    "health",
+    "fitness",
+    "claude",
+    "ai"
+  ],
+  "author": "Sourav Nayak",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "whoop-mcp": "./dist/index.js",
+    "whoop-mcp-auth-setup": "./dist/auth-setup.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build",
+    "auth-setup": "node dist/auth-setup.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
